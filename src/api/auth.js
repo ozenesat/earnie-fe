@@ -5,6 +5,9 @@ export const signUp = credentials => {
   return axios({
     method: 'POST',
     url: apiUrl + '/register',
+    headers: {
+      'Content-Type': 'application / json'
+    },
     data: {
       credentials: {
         email: credentials.email,
