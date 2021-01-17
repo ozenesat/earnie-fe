@@ -1,7 +1,7 @@
 let apiUrl
 const apiUrls = {
-  production: 'https://earnie-yt.herokuapp.com/api',
-  development: 'https://earnie-yt.herokuapp.com/api'
+  production: 'https://mysterious-escarpment-32571.herokuapp.com',
+  development: 'https://mysterious-escarpment-32571.herokuapp.com'
 }
 
 if (window.location.hostname === 'localhost') {
